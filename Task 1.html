@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn HTML, CSS, JS</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      border-radius: 10px;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Web Development Basics</h1>
+  </header>
+  <section>
+    <h2>What is HTML?</h2>
+    <p>HTML (HyperText Markup Language) is the standard language for creating webpages. It provides structure using elements like headings, paragraphs, images, and links.</p>
+  </section>
+  <section>
+    <h2>What is CSS?</h2>
+    <p>CSS (Cascading Style Sheets) is used to style HTML elements. It controls the colors, fonts, spacing, and overall layout of the webpage.</p>
+  </section>
+  <section>
+    <h2>What is JavaScript?</h2>
+    <p>JavaScript is a scripting language that adds interactivity to websites, such as button clicks, forms, animations, and dynamic content updates.</p>
+  </section>
+  <section>
+    <h2>Example Image and Link</h2>
+    <img src="C:\Users\mpriy\Downloads\web image.png" alt="Example image">
+    <p>Learn more about <a href="https://www.w3schools.com" target="_blank">html</a>.</p>
+  </section>
+  <section>
+    <h2>Click the Button</h2>
+    <button onclick="showMessage()">Click Me!</button>
+  </section>
+  <script>
+    function showMessage() {
+      alert("Hello! You clicked the button.");
+    }
+  </script>
+</body>
+</html>
